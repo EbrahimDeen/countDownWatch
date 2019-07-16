@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="myStyle.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                    <h1 class="mainHeading">Countdown Clock</h1> 
+                    <hr>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="timer__controls form-group">
+                     <form name="customForm" id="custom" >
+                        <input type="text" name="minutes" class="form-control" placeholder="Set Timer By Entering Number Of Minutes...">
+                    </form>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="timer">
+                    <div class="display ">
+                        <h1 class="display__time-left display-1"></h1>
+                        <em> <p class="display__end-time display-4"></p></em>
+                     </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="countDownClock.js"></script>
+</body>
+</html>

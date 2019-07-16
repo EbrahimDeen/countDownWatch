@@ -1,0 +1,21 @@
+.mainHeading {
+    
+    color: black; 
+    font-family: 'Raleway',sans-serif;
+    font-size: 62px;
+    font-weight: 800; 
+    line-height: 72px;
+    margin: 0 0 24px; 
+    text-align: center;
+    text-transform: uppercase; 
+}
+p,h1{
+    text-align: center;
+    text-transform: uppercase; 
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}

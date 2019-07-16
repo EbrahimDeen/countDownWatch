@@ -44,26 +44,32 @@ smalltext{
 <h1>Countdown Clock</h1> 
 <div id="clockdiv"> 
 <div> 
-	<span class="days" id="day"></span> 
+	<span class="days" id="day">0</span> 
 	<div class="smalltext">Days</div> 
 </div> 
 <div> 
-	<span class="hours" id="hour"></span> 
+	<span class="hours" id="hour">0</span> 
 	<div class="smalltext">Hours</div> 
 </div> 
 <div> 
-	<span class="minutes" id="minute"></span> 
+	<span class="minutes" id="minute">0</span> 
 	<div class="smalltext">Minutes</div> 
 </div> 
 <div> 
-	<span class="seconds" id="second"></span> 
+	<span class="seconds" id="second">0</span> 
 	<div class="smalltext">Seconds</div> 
 </div> 
 </div> <br><br><br>
-
-<input type="number" id="noOfdays" placeholder="Enter Number of Days">
-<input type="number" id="noOfmins" placeholder="Enter Mins">
-<button onclick="countDown()" >Start Countdown</button>
+<select id="optionList" onchange="valueWork()">
+	<option value="0">Select a filed </option>
+	<option value="1">Days</option>
+	<option value="2">Hours</option>
+	<option value="3">Minutes</option>
+  </select>
+  <input type="numbers" id="inputSection" placeholder="First select the Filed" disabled> 
+<!-- <input type="number" id="noOfdays" placeholder="Enter Number of Days">
+<input type="number" id="noOfmins" placeholder="Enter Mins"> -->
+<button onclick="countDown()" id="btn1"  >Start Countdown</button>
 <script src="countDown.js"></script>
 </body> 
 </html> 
